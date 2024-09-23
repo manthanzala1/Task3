@@ -1,0 +1,550 @@
+@media only screen and (min-width:568px) and (max-width:900px){
+    header{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 30px;
+    }
+    .navbar ul li a{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+        margin-left: auto;
+        padding-top: 5px;
+        margin-right: auto;
+        font-size: 30px;
+        padding-left: 120px;
+    }
+    .logo{
+        font-size: 28px;
+        color:  blue;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-right: auto;
+    }
+    .btn{
+        display: none;
+     }
+     .hero{
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .content{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .content h1{
+        font-size: 35px;
+        padding-bottom: 20px;
+        font-weight: 780;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .content p{
+        font-size: 24px;
+        padding-bottom: 35px;
+        color: #666;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .buttons {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 320px;
+        height: 50px;  
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .search-bar{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    label{
+        display: block;
+        margin-bottom: 2px;
+        font-size: 14px;
+        align-items: center;
+    }
+    select{
+        padding: 5px;
+        border: none;
+        color: #666;
+        font-size: 14px;
+    }
+    .dropdown{
+        margin-right: 20px;
+    }
+    .search-btn img{
+        width: 25px;
+        height: 25px;
+    }
+    .search-btn{
+        background-color: #007bff;
+        /*color: #fff;*/
+        border: none;
+        padding: 15px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .buttons {
+        display: flex;
+        margin-bottom: 30px;
+        width: 100px;
+        height: 50px;  
+        box-sizing: border-box;
+    }
+    button{
+        padding: 5px 25px;
+        transition: background-color 0.3s ease;
+        background-color: #fff;
+        cursor: pointer;
+        font-size: 15px;
+        border: none;
+    }
+    .img1{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .im{
+        border-radius: 10%;
+        width: 90%;
+        height: 400px;
+        padding: 0 0px;
+    }
+    .facilitate{
+        padding-top: 40px;
+    }
+    .facilitate h1{
+        font-size: 35px;
+        padding-bottom: 30px;
+        font-weight: 750;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .facilitate p{
+        font-size: 24px;
+        /*max-width: 950px;*/
+        padding-bottom: 30px;
+        text-align: center;
+        color: #666;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .facilitate ul{
+        display: flex;
+        padding-bottom: 30px;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .facilitate ul li{
+        font-size: 22px;
+        list-style: none;
+        color: #666;
+        margin-left: 10px;
+        margin-right: 15px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .facilitate ul li:hover{
+        color: blue;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+    .facilitate ul li:nth-of-type(1){
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+    .property{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .type{
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .im1{
+        border-radius: 20px 20px 0 0;
+    }
+    .type p{
+        font-size: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        color: #666;
+        line-height: 1.5;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .type button{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .detail h4{
+        padding-top: 10px;
+        padding-bottom: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .detail h5{
+        color: #007bff;
+        padding-top: 11px;
+        padding-bottom: 14px;
+        padding-left: 50px;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .main{
+        margin-top: 50px;
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .property-img{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        display: flex;
+    }
+    .choose-us{
+        display: flex;
+        flex-direction: column;
+    }
+    .property-img img{
+        width: 90%;
+        height: 705px;
+    }
+    .property-img img{
+        border-radius: 10px 75px 10px 10px;
+    }
+    .choose-us h1{
+        font-size: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .choose-us p{
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #666;
+        padding: 0 15px;
+    }
+    .type-box{
+        width: 40%;
+        height: 220px;
+        border: 1px solid black;
+        margin-top: 10px;
+        border-radius: 10px;
+        margin-right: auto;
+        display: flex;
+        margin-top: 35px;
+        margin-left: auto;
+    }
+    .type-box img{
+        margin: 15px auto;
+        width: 100px;
+        height: 50px;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .type-box h4{
+        margin-bottom: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .type-box p{
+        text-align: center;
+        font-size: 15px;
+        color: #666;
+     }
+     .about-us{
+        margin-top: 50px;
+     }
+     .about-us h1{
+        font-size: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .about-us p{
+        font-size: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: #666;
+        padding: 0 15px;
+    }
+    .second{
+        margin-top: 5px;
+        display: flex;
+    }
+    .text{
+        margin-top: 50px;
+    }
+    .text p {
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+    }
+    .text h4{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        font-size: 15px;
+        padding: 0 15px;
+    }
+    .manager{
+        display: flex;
+        align-items: center;
+    }
+    .manager h5{
+        color: #007bff;
+        margin-top: 8px;
+        font-size: 13px;
+        margin-left: 15px;
+        margin-right: auto;
+    }
+    .manager img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: 25px;
+    }
+    .second-img{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .second-img img{
+        border-radius: 25px;
+        width: 90%;
+        height: 340px;
+    }
+    .our-customer{
+        margin-top: 50px;
+    }
+    .our-customer h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+        font-weight: 800;
+    }
+    .our-customer p{
+        color: #666;
+        font-size: 22px;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .customer-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+    }
+    .type-customer{
+        width: 25%;
+        height: 70px;
+        border: 1px solid #666;
+        border-radius: 30px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-left: auto;
+    }
+    .type-customer img{
+        margin: 20px 40px;
+        width: 60%;
+        height: 30px;
+        /*padding: 0 30px;*/
+    }
+    .articles{
+        margin-top: 5px;
+    }
+    .articles h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        font-weight: 800;
+        margin-right: auto;
+    }
+    .articles p{
+        font-size: 22px;
+        margin-left: auto;
+        margin-bottom: 40px;
+        margin-right: auto;
+        color: #666;
+        text-align: center;
+       /* padding: 0 20px;*/
+    }
+    .articles-box{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .type-articles{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .type-articles h3{
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 1.5;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .type-articles p{
+        color: #666;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        line-height: 1.8;
+        text-align: center;
+    }
+    .type-articles button{
+        display: flex;
+        margin-left: auto;
+        margin-bottom: 10px;
+        margin-right: auto;
+    }
+    .start{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        flex-direction: row;
+    }
+    .home{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .home p{
+        font-size: 17px;
+        color: #666;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .home button{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    .home-img{
+        margin-right: auto;
+        margin-top: 30px;
+        margin-left: auto;
+        padding: 0 15px;
+    }
+    .home-img img{
+        border-radius: 20px;
+        height: 300px;
+        width: 100%;
+    }
+    footer .ftr{
+        display: flex;
+        flex-direction: row;
+    }
+    footer .first{
+        margin-left: auto;
+        margin-bottom: 20px;
+        margin-right: auto;
+    }
+    footer .first p{
+        margin-top: 50px;
+        color: #666;
+        font-size: 15px;
+        text-align: center;
+    }
+    footer .first button{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .name{
+        font-size: 25px;
+        color:#0000FF;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    footer .social-icons{
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+    footer .social-icons img{
+        margin-right: 30px;
+        width: 25px;
+    }
+    footer .type-list{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    footer .type-list ul li{
+        line-height: 1.8;
+        color: #666;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    footer .type-list h4{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
